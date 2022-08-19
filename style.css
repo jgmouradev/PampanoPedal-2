@@ -54,6 +54,9 @@ body {
 .menu-items a:hover{
   color: white;
 }
+.mega-links li{
+  margin-left: 15px;
+}
 
 .intro p{
   color: black;
