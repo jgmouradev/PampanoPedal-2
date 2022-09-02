@@ -3,8 +3,12 @@
 @media (min-width:375px) and ( max-width:500px){
     .mega-menu .content{
         grid-template-columns: 1fr;
+        height: 200vh;
         justify-content: center;
         text-align: center;
+    }
+    .blog .content{
+        height: 230vh;
     }
     .section{
         position: relative;
@@ -31,6 +35,9 @@
         height: 40vh;
         overflow: hidden;
       }
+    footer{
+        top: 0;
+    }
 }
 
 @media(min-width:500px) and (max-width:768px){
