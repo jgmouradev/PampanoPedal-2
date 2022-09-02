@@ -41,5 +41,24 @@
 }
 
 @media(min-width:500px) and (max-width:768px){
+    .main{
+        top: 760px;
+    }
+    .galeria{
+        top: 760px;
+    }
+    footer{
+        top:755px;
+        height: 10vh;
+    }
+    footer p{
+        padding: 30px;
+    }
+    .section h1 {
+        line-height: 12vw;
+      }
 
 }
+
+
+

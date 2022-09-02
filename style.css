@@ -1,6 +1,6 @@
 /* globals */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web:wght@400;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300;400&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Anek Telugu', sans-serif;
   background: #09131b;
   color: #ffffff;
   background: #ffff;
@@ -237,12 +237,13 @@ body {
 
 .main h1{
   margin: 25px;
-  margin-left: 200px;
+  
   padding: 10px;
+  font-family: 'Hepta Slab', serif;
+  text-transform: uppercase;
   color: black;
-  font-family: 'Barlow', sans-serif;
   display: flex;
-  justify-content:flex-start;
+  justify-content:center;
 }
 .main h3{
 font-size: 1.2rem;
