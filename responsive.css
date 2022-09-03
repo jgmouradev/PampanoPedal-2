@@ -1,6 +1,7 @@
 /*Small Devices*/
 
 @media (min-width:375px) and ( max-width:500px){
+   
     .mega-menu .content{
         grid-template-columns: 1fr;
         height: 200vh;
@@ -49,7 +50,7 @@
     }
 }
 
-@media(min-width:501px) and (max-width:767px){
+@media(min-width:501px) and (max-width:920px){
     .mega-menu .content{
         grid-template-columns: 1fr;
         height: 200vh;
@@ -64,7 +65,7 @@
     }
     
     .section h1{
-       font-size: 3rem;
+       font-size: 3.5rem;
        letter-spacing: 5px;
        line-height: 15vw; 
     }
@@ -75,6 +76,10 @@
         top:40px;
     }
     .galeria .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 15px;
         margin-bottom: 55px;
     }
     .content .col .img-wrapper {
@@ -93,6 +98,72 @@
     }
 
 }
+@media(min-width:921px) and (max-width:1500px){
+    .section h1{
+        font-size: 4rem;
+        letter-spacing: 5px;
+        line-height: 10vw; 
+     }
+     .main{
+        margin-top: 115px;
+     }
+     
+     footer{
+        height: 12vh;
+        
+    }
+    footer p{
+        padding: 30px;
+    }
+}
+@media (min-width:1300px) and (max-height:1920px){
+    .section h1{
+        font-size: 5rem;
+    }
+    .main{
+        margin-top: 140px;
+     }
+     footer{
+        height: 12vh;
+    }
+    footer p{
+        padding: 50px;
+    }
+     
+}
+@media(max-height:1040px){
+    
+    .main{
+        margin-top: 280px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*@media(min-width:768px) and (max-width:1200px){
     .mega-menu .content{
