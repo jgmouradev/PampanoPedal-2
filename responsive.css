@@ -20,7 +20,21 @@
        letter-spacing: 5px;
        line-height: 18vw; 
     }
+
+    .section-audax{
+        position: relative;
+    }
+    
+    .section-audax h1{
+       font-size: 3rem;
+       letter-spacing: 5px;
+       line-height: 18vw; 
+    }
+    
     .main{
+        top:0;
+    }
+    .main-audax{
         top:0;
     }
     .galeria{
@@ -70,10 +84,27 @@
        line-height: 15vw; 
     }
     .main{
+        top:-210px;
+    }
+    .section-audax{
+        position: relative;
+    }
+    
+    .section-audax h1{
+       font-size: 3.5rem;
+       letter-spacing: 5px;
+       line-height: 15vw; 
+    }
+    .main-audax{
         top:0;
     }
     .galeria{
-        top:40px;
+        margin-top:-250px;
+        top: 40px;
+    }
+    .galeria-audax{
+        margin-top:0;
+        top: 10px;
     }
     .galeria .container{
         display: flex;
@@ -107,22 +138,35 @@
      .main{
         margin-top: 115px;
      }
+     .section-audax h1{
+        font-size: 4rem;
+        letter-spacing: 5px;
+        line-height: 10vw; 
+     }
+     .main-audax{
+        margin-top:700px;
+     }
+     .galeria{
+        top: 0;
+     }
      
      footer{
         height: 12vh;
+        
         
     }
     footer p{
         padding: 30px;
     }
 }
-@media (min-width:1300px) and (max-height:1920px){
+@media (min-width:1300px) and (max-height:2560px){
     .section h1{
         font-size: 5rem;
     }
     .main{
         margin-top: 140px;
      }
+     
      footer{
         height: 12vh;
     }
